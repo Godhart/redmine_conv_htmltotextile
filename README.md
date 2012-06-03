@@ -17,7 +17,7 @@ There is no direct usage for this plugin. It's supplement for [redmine_aloha_wik
 It provides 'convert/htmltotextile' controller for AJAX requests and takes following arguments as input:
 
 * content[text] _as a text to be converted_
-* project_id _as origin project of wiki page. It's used to distinguish inner and outer wiki links_
+* project\_id _as origin project of wiki page. It's used to distinguish inner and outer wiki links_
 * id _as a wiki page name. It's reserved for further use_
 
 Output is a result of conversion in plain text.
